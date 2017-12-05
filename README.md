@@ -1,2 +1,4 @@
-# class-code
-os and assembly and compile class code
+操作系统的代码可以直接运行就不细说，主要是先来先服务、最短寻道优先和电梯上升法的运用。
+编译原理的代码，.l文件需要使用lex指令进行编译，具体命令如下：
+ lex c_test.l #生成lex.yy.c文件
+ cc lex.yy.c -o first -ll #编译生成可执行文件
